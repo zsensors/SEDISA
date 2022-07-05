@@ -2601,15 +2601,18 @@ a:hover.back-to-top {
 	grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
 	gap: 1.5rem;
 	
+	border-radius: 2rem;
+	
+	
   }
   
   .services .box-container .box {
-	
+	background-color: #b2bedc;
 	border-radius: 1rem;
 	padding-top: 2rem;
 	text-align: center;
 	flex-direction: column;
-	background-color: #b2bedc;
+	margin: 3rem;
 	
 	
 	

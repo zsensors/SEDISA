@@ -299,6 +299,32 @@
 
 @media (max-width: 420px) {
 
+  
+
+    .services .box-container {
+      height:100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      
+      }
+
+    .services .box-container .box  {
+      height: auto;
+      
+      display: inline-block;
+      
+      
+      }
+
+      .services .box-container .box p {
+        
+        font-size: 1rem;
+        color: #333;
+        line-height: 2;
+        margin: 1rem;
+        }
+
   .basic-2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -339,6 +365,17 @@
     text-align: center;
     
     }
+
+    .basic-2 .content img {
+      align-items: center;
+      position: relative;
+      width: 230px;
+      transition: 0.3s;
+      align-content: center;
+      margin-left: .1rem;
+      padding-top: 2rem;
+      
+      }
     
     .basic-2 .content h1 {
     color: #5f4dee;
