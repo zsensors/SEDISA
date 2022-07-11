@@ -975,7 +975,7 @@ input[type='checkbox'] {
 /*     05. Customers     */
 /*************************/
 .slider-1 {
-	padding-top: 1rem;
+	padding-top: 4rem;
 	padding-bottom: 1.25rem;
 }
 .slider-1 .h2-heading{
@@ -1010,6 +1010,7 @@ input[type='checkbox'] {
 
 .cards-1 .h2-heading {
 	margin-bottom: 3.5rem;
+	
 }
 
 .cards-1 .card {
@@ -1019,6 +1020,12 @@ input[type='checkbox'] {
 	margin-left: auto;
 	padding: 0;
 	border: none;
+	
+}
+.cards-1 .card p {
+	text-align: justify;
+  text-justify: inter-word;
+	
 }
 
 .cards-1 .card-image {
@@ -1499,12 +1506,25 @@ flex: auto;
   .basic-2 .content h1 {
 	color: #5f4dee;
 	line-height: 2;
+	margin: 2rem;
+	
 	
   }
 
   .basic-2 .content h2 {
 	
 	line-height: 2;
+	
+  }
+
+  .basic-2 .content h4 {
+	
+	margin: 2rem;
+	text-align: left;
+	text-align: justify;
+ 	
+  	text-justify: inter-word;
+	
 	
   }
   
@@ -1524,6 +1544,21 @@ flex: auto;
 	transform: scale(1.2, 1.2);
 	
   }
+
+  .basic-2 .floating { 
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 8px); }
+    100%   { transform: translate(0, -0px); }   
+}
   
   
 
@@ -1618,7 +1653,7 @@ flex: auto;
 /*     12. Testimonials     */
 /****************************/
 .slider-2 {
-	padding-top: 2.75rem;
+	padding-top: .15rem;
 	padding-bottom: 4rem;
 }
 
@@ -1679,8 +1714,8 @@ flex: auto;
 /*     13. Newsletter     */
 /**************************/
 .form {
-	padding-top: 4rem;
-	padding-bottom: 6rem;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
 }
 
 .form .text-container {
@@ -1890,11 +1925,27 @@ a:hover.back-to-top {
 
 .ex-basic-2 .image-container-large img {
 	border-radius: 0.25rem;
-	height: 400px;
-	width: 100%;
+	height: 360px;
+	width: 360px;
+	
 	
 	
 }
+
+/* .ex-basic-2 .floatingButton { 
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floatingButton {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 8px); }
+    100%   { transform: translate(0, -0px); }   
+} */
 
 .ex-basic-2 .image-container-small img {
 	border-radius: 0.25rem;
@@ -1908,6 +1959,7 @@ a:hover.back-to-top {
 
 .ex-basic-2 .list-unstyled .media-body {
 	margin-left: 0.625rem;
+	margin-top: 0.825rem;
 }
 
 .ex-basic-2 .form-container {
@@ -2785,7 +2837,7 @@ a:hover.back-to-top {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	min-height: 80vh;
+	min-height: 50vh;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -2864,5 +2916,21 @@ a:hover.back-to-top {
 		
 		max-width: 11rem;
 	}
+	
+  }
+
+  .outline{
+	width: 100%;
+	position: relative;
+	margin-top: 0rem;
+	padding-bottom: 1rem;
+	
+	background-color: #37447a;
+	border-radius: .2rem;
+  }
+
+  .text-container {
+	border-radius: 1rem;
+	background-color: #507cb3;
 	
   }
