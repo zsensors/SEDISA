@@ -1,5 +1,5 @@
 @media (max-width: 1120px) {
-
+ 
   .quote_btn-container a {
     display: none;
   }
@@ -17,7 +17,7 @@
     width: 100%;
     text-align: center;
     padding: 75px 15px;
-    background: linear-gradient(135deg, #333645, #0e0829);
+    background: linear-gradient(135deg, #00adef, #0e348e);
     position: relative;
   }
 
@@ -132,6 +132,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .client_section .client_container {
     width: 100%;
   }
@@ -299,7 +300,13 @@
 
 @media (max-width: 420px) {
 
-  
+  .card1 h2 {
+    font-size: 28px;
+    }
+    
+    .card1 p {
+    font-size: 13px;
+    }
 
     .services .box-container {
       height:100%;
@@ -378,7 +385,7 @@
       }
     
     .basic-2 .content h1 {
-    color: #5f4dee;
+    color: linear-gradient(135deg, #00adef, #0e348e);
     line-height: 2;
     
     }
@@ -571,6 +578,7 @@
 
 @media (max-width: 360px) {
 
+  
   .slider_section .img-box img {
     width: 100%;
     height: 300px;
@@ -593,3 +601,64 @@
   }
 }
 
+
+
+
+
+@media (min-width: 720px) {
+  .ex-basic-2 .image-container-large img {
+    border-radius: 0.25rem;
+    height: 200px;
+    width: 200px;
+    
+    
+    
+  }
+
+
+
+.text-container1 .img-fluid {
+	
+	margin: auto auto;
+	text-align: center;
+	padding-top: 15rem;
+  }
+
+
+ 
+
+    .text-container2 .img-fluid{
+      margin: auto auto;
+      text-align: center;
+      padding-top: 7rem;
+      height: 400px;
+      width: auto;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+  .text-container1 .img-fluid {
+    
+    margin: auto auto;
+    text-align: center;
+    padding-top: 1rem;
+    }
+
+    .text-container2 .img-fluid{
+      margin: auto auto;
+      text-align: center;
+      padding-top: .1rem;
+      
+      width: auto;
+
+    }
+
+    .ex-basic-2 .image-container-large img {
+      border-radius: 0.25rem;
+      height: 360px;
+      width: 360px;
+    }
+  
+  }
