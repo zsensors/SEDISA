@@ -687,8 +687,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.4375rem;
-	height: 4.75rem;
+    width: 18.4375rem;
+	height: 3.75rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -2652,62 +2652,6 @@ a:hover.back-to-top {
   }
   
  
-  /*-------------services--------------*/
-
-  .services .heading{
-	text-align: center;
-  }
-
-
-  .services .box-container {
-	display: -ms-grid;
-	width: auto;
-	align-content: center;
-	text-align: center;
-	align-items: center;
-	-ms-grid-columns: (minmax(32rem, 1fr)) [auto-fit];
-	grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
-	gap: 1.5rem;
-	
-	border-radius: 2rem;
-	
-	
-  }
-  
-  .services .box-container .box {
-	background-color: #b2bedc;
-	border-radius: 1rem;
-	padding-top: 2rem;
-	text-align: center;
-	flex-direction: column;
-	margin: 3rem;
-	
-	
-	
-  }
-  
-  
-  
-  .services .box-container .box i {
-	font-size: 4rem;
-	color: #5f4dee;
-	margin-bottom: 2rem;
-  }
-  
-  .services .box-container .box h3 {
-	font-size: 2rem;
-	color: #333;
-  }
-  
-  .services .box-container .box p {
-	padding: 1rem 0;
-	font-size: 1.4rem;
-	color: #333;
-	line-height: 2;
-  }
-
-  
-  
     /*-------------floating button--------------*/
 
 	.floatingButtonWrap {
