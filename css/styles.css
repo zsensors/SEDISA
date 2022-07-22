@@ -1823,7 +1823,7 @@ flex: auto;
 	margin-right: 0.625rem;
 }
 .background {
-	background: linear-gradient(200deg, #00adef, #0e348e);
+	background: #2d57b9;
  }
 
 
@@ -1990,6 +1990,7 @@ a:hover.back-to-top {
 	width: 100%;
 	height: 2.75rem;
 	background-color: #f3f7fd;
+	
 }
 
 
@@ -2894,7 +2895,7 @@ a:hover.back-to-top {
   .text-container1 {
 	border-radius: 1rem;
 	padding: 1rem;
-	background-color: #507cb3;
+	background-color: #70bcda;
 	text-align: justify;
 	hyphens: auto;
 
@@ -2921,6 +2922,7 @@ a:hover.back-to-top {
 	border-radius: 7px;
 	box-shadow: rgba(255, 255, 255, 0.3) 0 5vw 6vw -8vw, rgba(255, 255, 255, 0) 0 4.5vw 5vw -6vw, rgba(50, 50, 80, 0.5) 0px 4vw 8vw -2vw, rgba(0, 0, 0, 0.8) 0px 4vw 5vw -3vw;
 	transition: box-shadow 1s var(--cover-ease);
+	
 	
   }
   .card1 > * {
@@ -2975,9 +2977,12 @@ a:hover.back-to-top {
   }
   
   .card1 .text {
-	position: absolute;
-	inset: 20px;
-	top: auto;
+	position:relative;
+	align-content: center;
+	margin: 0 1rem 0 1rem;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	
   }
   
@@ -2987,6 +2992,8 @@ a:hover.back-to-top {
 	font-weight: 800;
 	margin-bottom: 0.2em;
 	color: #fff;
+	align-items: center;
+	
   }
   
 	.card1 p {
@@ -2996,10 +3003,9 @@ a:hover.back-to-top {
 	margin-top: 0.2em;
 	margin-bottom: 0;
 	color: #fff;
-	text-align: left;
-	text-align: justify;
- 	
-  	text-justify: inter-word;
+	
+	
+
 	
 	
   }

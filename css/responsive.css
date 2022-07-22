@@ -301,11 +301,11 @@
 @media (max-width: 420px) {
 
   .card1 h2 {
-    font-size: 28px;
+    font-size: 1px;
     }
     
     .card1 p {
-    font-size: 13px;
+    font-size: 10px;
     }
 
     .services .box-container {
