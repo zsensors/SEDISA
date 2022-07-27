@@ -360,7 +360,14 @@
     }
     
     
-    
+    .ex-basic-2 .container .image-container-large img {
+      border-radius: 0.25rem;
+      height: 100px;
+      width: 300px
+      
+      
+      
+    }
     
     
     .basic-2 .content {
@@ -606,10 +613,10 @@
 
 
 @media (min-width: 720px) {
-  .ex-basic-2 .image-container-large img {
+  .ex-basic-2 .container .image-container-large img {
     border-radius: 0.25rem;
     height: 200px;
-    width: 200px;
+    width: 700px;
     
     
     
@@ -655,10 +662,10 @@
 
     }
 
-    .ex-basic-2 .image-container-large img {
+    .ex-basic-2 .container .image-container-large img {
       border-radius: 0.25rem;
-      height: 360px;
-      width: 360px;
+      height: 200px;
+      width: 1000px;
     }
   
   }

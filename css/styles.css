@@ -984,7 +984,7 @@ input[type='checkbox'] {
 /*     05. Customers     */
 /*************************/
 .slider-1 {
-	padding-top: 4rem;
+	padding-top: 7rem;
 	padding-bottom: 1.25rem;
 }
 .slider-1 .h2-heading{
@@ -1271,7 +1271,7 @@ flex: auto;
 
 .tabs .tab-content .form-container .contact-form .submit:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #00adef;
 	text-decoration: none;
 }
 
@@ -1370,6 +1370,12 @@ flex: auto;
 	margin-right: auto;
 	margin-bottom: 3rem;
 	margin-left: auto;
+	margin-top: 4rem;
+	
+}
+.lightbox-basic .image-container img{
+	border-radius: 1rem;
+	
 }
 
 .lightbox-basic h3 {
@@ -1513,7 +1519,6 @@ flex: auto;
   }
   
   .basic-2 .content h1 {
-	color: #00adef;
 	line-height: 2;
 	margin: 2rem;
 	
@@ -1683,9 +1688,7 @@ flex: auto;
 	margin-left: auto;
 }
 
-.slider-2 .image-wrapper img {
-	border-radius: 50%;
-}
+
 
 .slider-2 .testimonial-text {
 	margin-bottom: 0.5rem;
@@ -1939,10 +1942,10 @@ a:hover.back-to-top {
 	text-align: center;
 }
 
-.ex-basic-2 .image-container-large img {
+.ex-basic-2 .container .image-container-large img {
 	border-radius: 0.25rem;
-	height: 360px;
-	width: 360px;
+	height: 200px;
+	width: 1000px;
 	
 	
 	
@@ -1968,7 +1971,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #5f4dee;
+	color: #0056a4;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -2266,7 +2269,7 @@ a:hover.back-to-top {
 	
 	.tabs .nav-link:hover,
 	.tabs .nav-link.active {
-		border-bottom: 2px solid #5f4dee;
+		border-bottom: 2px solid #00adef;
 	}
 
 	.tabs .image-container {
@@ -2854,7 +2857,7 @@ a:hover.back-to-top {
 	
   }
   .home .content a:hover {
-	color: #5f4dee;
+	color: #00adef;
 	background-color: white;
 }
 
@@ -2888,14 +2891,14 @@ a:hover.back-to-top {
 	margin-top: 0rem;
 	padding-bottom: 1rem;
 	
-	background-color: #37447a;
+	background-color: #fff;
 	border-radius: .2rem;
   }
 
   .text-container1 {
 	border-radius: 1rem;
-	padding: 1rem;
-	background-color: #70bcda;
+	padding: 3rem;
+	background-color: #0056a4;
 	text-align: justify;
 	hyphens: auto;
 
