@@ -134,7 +134,9 @@ h6 {
 }
 
 .above-heading {
-	color: #00adef;
+	background: linear-gradient(180deg, #00adef, #0e348e); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
 	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
 	text-align: center;
 }
@@ -925,6 +927,7 @@ input[type='checkbox'] {
   }
   
   .slider_section .img-box {
+
 	width: 73%;
 	margin-left: -17%;
 	position: relative;
@@ -2784,7 +2787,7 @@ a:hover.back-to-top {
 
 .home {
 	margin: 0 auto;
-	margin-top: 9rem;
+	margin-top: 5rem;
 	width: 90%;
 	border-radius: 1rem;
 	background: -webkit-gradient(
@@ -2794,15 +2797,15 @@ a:hover.back-to-top {
 		from(rgba(17, 17, 17, 0.7)),
 		to(rgba(17, 17, 17, 0.7))
 	  ),
-	  url(../images/cleaner18.jpg) no-repeat;
+	  url(../images/nosotros.jpg) no-repeat;
 	background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
-	  url(../images/cleaner18.jpg) no-repeat;
+	  url(../images/nosotros.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	min-height: 50vh;
+	min-height: 70vh;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;

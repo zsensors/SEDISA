@@ -24,6 +24,7 @@
   .slider_section .img-box {
     width: 100%;
     margin: 0;
+    
   }
 
   .slider_section .slider_bg-container {
@@ -653,6 +654,12 @@
     padding-top: 1rem;
     }
 
+
+    .slider_section .img-box {
+      
+      padding-top: 2rem;
+    }
+  
     .text-container2 .img-fluid{
       margin: auto auto;
       text-align: center;
