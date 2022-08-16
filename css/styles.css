@@ -2797,9 +2797,9 @@ a:hover.back-to-top {
 		from(rgba(17, 17, 17, 0.7)),
 		to(rgba(17, 17, 17, 0.7))
 	  ),
-	  url(../images/nosotros.jpg) no-repeat;
+	  url(../images/images\ aif/nosotros.avif) no-repeat;
 	background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
-	  url(../images/nosotros.jpg) no-repeat;
+	  url(../images/images\ aif/nosotros.avif) no-repeat;
 	background-size: cover;
 	background-position: center;
 	display: -webkit-box;
