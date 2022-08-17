@@ -2986,11 +2986,13 @@ a:hover.back-to-top {
   }
   
   .card1 .text {
-	position:relative;
-	align-content: center;
-	margin: 0 1rem 0 1rem;
+	position: relative;
 	top: 50%;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 	
   }
