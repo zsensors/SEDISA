@@ -1504,9 +1504,12 @@ flex: auto;
 	margin: 5rem;
   }
   
-  .basic-2 .video-container video {
-	border-radius: 3rem;
-	width: 100%;
+  .basic-2 .video-container iframe {
+	border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 500px;
+
   }
   
   
@@ -2797,9 +2800,9 @@ a:hover.back-to-top {
 		from(rgba(17, 17, 17, 0.7)),
 		to(rgba(17, 17, 17, 0.7))
 	  ),
-	  url(../images/images\ aif/nosotros.avif) no-repeat;
+	  url(../images/images\ webp/nosotros.webp) no-repeat;
 	background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
-	  url(../images/images\ aif/nosotros.avif) no-repeat;
+	  url(../images/images\ webp/nosotros.webp) no-repeat;
 	background-size: cover;
 	background-position: center;
 	display: -webkit-box;
